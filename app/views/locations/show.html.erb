@@ -45,8 +45,8 @@
 
 <% if @buses.empty? %>
   <p style="text-align:center;">
-    Not really that close..
-    Time to walk, taxi, Uber or <%= link_to "Edit your location", edit_location_path(@location) %>.
+    Not very close
+     <%= link_to "Edit your location", edit_location_path(@location) %>.
   </p>
 <% end %>
 
